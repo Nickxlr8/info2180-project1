@@ -1,0 +1,234 @@
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+
+}
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    
+    background: white;
+    background-color: white;
+    font-size: 18px;
+    max-width: 100%;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+
+}
+
+header .container a{
+    text-decoration: none;
+    color: #6b7280;
+}
+header .container a:hover{
+    color: #5A67D8;
+}
+header .container ul{
+    display: inline;
+    list-style-type: none;
+
+}
+header .container ul li{
+    display: inline;
+    padding-right: 6px;
+    
+}
+
+.overview-hero > .container{
+
+    display: flex;
+    background-color: #E2E8F0;
+    padding-left: 17em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+.overview-hero .container .overview-hero-image img{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-right: 2rem;
+    
+
+}
+.overview-hero .container .overview-hero-text{
+    width: 46%;
+}
+
+.learn-about {
+    padding-bottom: 3em;
+    padding-left: 11em;
+
+}
+.learn-about .container > h2{
+    color: #48BB78;
+    padding-left: 5.5em;
+}
+.cards{
+    display: flex;
+    margin-left: 100px;
+}
+    .card>img{
+    width: 250px;
+    height: 200px;
+
+}
+.card{
+   width:250px;
+   height: 435px;
+   border:1px solid rgb(247, 241, 241);
+   margin-left:50px;
+   border-color: #E2E8F0;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px 2px #E2E8F0;
+   overflow:hidden;
+}
+.card h3{
+    margin-left:0.5rem ;
+    color:#48BB78;
+    font-size: 21px;
+}
+
+.card p{
+    margin-left: 00.5rem;
+}
+
+.testing  {
+    background-color: #4A5568;
+    color: white;
+}
+.testing>.container{
+    display: flex;
+    color:white;
+    margin-left: 12rem;
+    padding: 5% 10%;
+    max-width: 100%;
+}
+.testing .container .testing-desciption{
+    max-width: 58%;
+}
+
+.testing .cta{
+    background-color: #48BB78;
+    border-radius: 5px;
+    margin-left: 6rem;
+    margin-top: 3.2rem;
+    width: 12%;
+    margin-bottom: 6rem;
+    padding: 0.6em;
+    text-decoration: none;
+    color: white;
+}
+.testing .cta .btn{
+    align-self:center;
+    color: white;
+
+    
+}
+.testing .cta a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.stories .container{
+    display: flex;
+    margin:5% 20%;
+    flex-direction: column;
+}
+.stories>.container>article{
+    display: flex;
+    
+}
+.stories .container h2{
+    color: #5A67D8;
+}
+.stories .container h3{
+    font-size: 18px;
+    max-width: 60%;
+}
+.stories .container p{
+    margin-top: 2rem;
+    max-width: 98% ;
+}
+.stories .container a{
+    color: #5A67D8;
+    text-decoration: none;
+}
+.stories>.container>article>img{
+    background-color: black;
+    width: 60%;
+    max-height: 250px;
+    border-radius: 60%;
+    margin-top: 1rem;
+    margin-right: 5%;
+    
+}
+
+.newsletter .container{
+    height: 169px;
+    width: 100%;
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 4em;
+}
+
+.newsletter .container p{
+    max-width: 32%;
+    margin-left: 30.5em;
+    text-align: left;
+}
+
+.newsletter .container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.newsletter .container form input{    
+    margin-left: 1rem;
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 6px;
+    outline: none;
+}
+
+.newsletter .container form .btn{
+    background-color: #5A67D8;
+    border-color: #5A67D8;
+    margin-left: 3rem;
+    width: 10%;
+    padding: 0.6em;
+    border-radius: 6px;
+    color: white;
+}
+.newsletter .message{
+    padding-top: 1rem;
+}
+
+footer{
+    margin-top: -1rem;
+}
+footer .container{
+    background-color: #4A5568;
+    color: white;
+    height:100px;
+    
+}
+
+footer .container p{
+    padding-left: 130px;
+    padding-top: 45px;
+}
